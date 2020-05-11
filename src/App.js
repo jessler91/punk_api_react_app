@@ -40,7 +40,9 @@ class App extends React.Component {
             <li key={index}>
               <img alt="beer_image" src={beerList.image_url}></img>
               <p>{beerList.name}</p>
-              <p>{beerList.tagline}</p> 
+              <p>{beerList.tagline}</p>
+              <p>{beerList.first_brewed}</p>
+              <p>{beerList.abv+'%'}</p>
             </li>)}
           </ul>
         </div>
